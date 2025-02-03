@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  ARTM
+
+  Created by Chris Comeau on 2025-02-03.
+  
+*/
+
+"countries_list_title" = "Pays";
+"error_title" = "Erreur";
+"error_unknown" = "Erreur inconnue";
+"ok_button" = "OK";
+"name_label" = "Nom : %@";
+"region_label" = "Région : %@";
+"population_label" = "Population : %d";
+"capital_label" = "Capitale : %@";
+"capital_na_label" = "Capitale : N/A";
