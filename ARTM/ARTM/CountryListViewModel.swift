@@ -13,7 +13,12 @@ class CountryListViewModel: ObservableObject {
     @Published var errorMessage: String?
     @Published var showError: Bool = false
 
-    private let service = CountryService()
+    private let service: CountryService
+
+    // Custom initializer for dependency injection
+    init(service: CountryService = CountryService()) {
+        self.service = service
+    }
 
     func fetchCountries() {
         service.fetchCountries { [weak self] result in

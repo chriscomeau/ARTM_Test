@@ -17,6 +17,10 @@
 		837731532D514833003383CB /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837731522D51482E003383CB /* Country.swift */; };
 		8377315D2D5151E8003383CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8377315B2D5151E8003383CB /* Localizable.strings */; };
 		837731602D515359003383CB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377315F2D515355003383CB /* String+Extension.swift */; };
+		8377316F2D51B019003383CB /* CountryListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377316C2D51B019003383CB /* CountryListViewModelTests.swift */; };
+		837731702D51B019003383CB /* CountryServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377316D2D51B019003383CB /* CountryServiceTests.swift */; };
+		837731722D51B0AD003383CB /* CountryModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837731712D51B0A5003383CB /* CountryModelTests.swift */; };
+		837731742D51B0F4003383CB /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837731732D51B0F0003383CB /* LocalizationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		836E0FAF2D51C33600FF1B63 /* ARTM.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ARTM.xctestplan; sourceTree = "<group>"; };
 		837731102D514569003383CB /* ARTM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		837731202D51456B003383CB /* ARTMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8377313E2D514728003383CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -43,15 +48,11 @@
 		8377315C2D5151E8003383CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8377315E2D5152CD003383CB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8377315F2D515355003383CB /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		8377316C2D51B019003383CB /* CountryListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModelTests.swift; sourceTree = "<group>"; };
+		8377316D2D51B019003383CB /* CountryServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryServiceTests.swift; sourceTree = "<group>"; };
+		837731712D51B0A5003383CB /* CountryModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModelTests.swift; sourceTree = "<group>"; };
+		837731732D51B0F0003383CB /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		837731232D51456B003383CB /* ARTMTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ARTMTests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8377310D2D514569003383CB /* Frameworks */ = {
@@ -75,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				837731432D514728003383CB /* ARTM */,
-				837731232D51456B003383CB /* ARTMTests */,
+				8377316E2D51B019003383CB /* ARTMTests */,
 				837731112D514569003383CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -170,6 +171,18 @@
 			name = API;
 			sourceTree = "<group>";
 		};
+		8377316E2D51B019003383CB /* ARTMTests */ = {
+			isa = PBXGroup;
+			children = (
+				836E0FAF2D51C33600FF1B63 /* ARTM.xctestplan */,
+				837731732D51B0F0003383CB /* LocalizationTests.swift */,
+				8377316D2D51B019003383CB /* CountryServiceTests.swift */,
+				837731712D51B0A5003383CB /* CountryModelTests.swift */,
+				8377316C2D51B019003383CB /* CountryListViewModelTests.swift */,
+			);
+			path = ARTMTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -204,9 +217,6 @@
 			);
 			dependencies = (
 				837731222D51456B003383CB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				837731232D51456B003383CB /* ARTMTests */,
 			);
 			name = ARTMTests;
 			packageProductDependencies = (
@@ -294,6 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8377316F2D51B019003383CB /* CountryListViewModelTests.swift in Sources */,
+				837731702D51B019003383CB /* CountryServiceTests.swift in Sources */,
+				837731742D51B0F4003383CB /* LocalizationTests.swift in Sources */,
+				837731722D51B0AD003383CB /* CountryModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

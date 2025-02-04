@@ -27,8 +27,13 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:ARTM.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+      </TestPlans>
       <Testables>
          <TestableReference
             skipped = "NO"
@@ -46,9 +51,9 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "837731292D51456B003383CB"
-               BuildableName = "ARTMUITests.xctest"
-               BlueprintName = "ARTMUITests"
+               BlueprintIdentifier = "8377317A2D51B5F1003383CB"
+               BuildableName = "ARTMUITests2.xctest"
+               BlueprintName = "ARTMUITests2"
                ReferencedContainer = "container:ARTM.xcodeproj">
             </BuildableReference>
          </TestableReference>

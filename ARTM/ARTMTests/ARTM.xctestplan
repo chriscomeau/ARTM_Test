@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "A96391BD-F491-4E6C-AE49-7FB72656D65B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "language" : "fr",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ARTM.xcodeproj",
+      "identifier" : "8377310F2D514569003383CB",
+      "name" : "ARTM"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ARTM.xcodeproj",
+        "identifier" : "8377311F2D51456B003383CB",
+        "name" : "ARTMTests"
+      }
+    }
+  ],
+  "version" : 1
+}
